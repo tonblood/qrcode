@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 376px) {
+    body {
+        background-color: black;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(212, 45%, 89%) ;
+}
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+h3 {
+    color:hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-containner {
+    background-color:hsl(0, 0%, 100%) ;
+    margin-top: 50px;
+    justify-items: center;
+    align-self: center;
+    padding: 15px;
+    border-radius: 7px;
+    width: 220px;
+    box-shadow: 2px 2px 15px hsl(212, 45%, 89%)
+}
+img {
+    border-radius: 7px;
+    width: 100%;
+}
